@@ -10,4 +10,4 @@ class Solution:
         # return np.round(your_answer, 4)
         temp = z - np.max(z)
         somme = np.exp(temp)
-        return np.round(somme/sum(somme), 4)
+        return np.round(somme/np.sum(somme), 4)
